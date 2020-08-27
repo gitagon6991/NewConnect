@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#212121</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#c2bdbf</color>
+
+    <color name="header">#142A5C</color>
+
+    <color name="textcolor">#171718</color>
+    <color name="white">#fff</color>
+    <color name="black">#000000</color>
+
+    <color name="buttonDayNight">#303030</color>
+
+    <color name="backArrowColor">#ffffff</color>
+
+    <color name="profileDetailsColor">#4e4e4e</color>
+
+
+    <color name="bg2">#4e4e4e</color>
+    <color name="unchangedbg2">#00c0bf</color>
+    <color name="bg3">#303030</color>
+
+    <color name="profilebg3">#1f1a20</color>
+
+    <color name="lightblue">#6666ff</color>
+    <color name="mediumblue">#0000ff</color>
+    <color name="navyblue">#000080</color>
+    <color name="darkblue">#00004d</color>
+
+    <color name="colortop">#ffffff</color>
+
+    <color name="grayLight">#fafafa</color>
+
+</resources>

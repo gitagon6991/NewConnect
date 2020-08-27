@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#142A5C</color>
+    <color name="colorPrimaryDark">#403d3d</color>
+    <color name="colorAccent">#c2bdbf</color>
+
+    <color name="header">#142A5C</color>
+
+    <color name="textcolor">#171718</color>
+    <color name="white">#fff</color>
+    <color name="black">#000000</color>
+
+    <color name="buttonDayNight">#fff</color>
+
+    <color name="backArrowColor">#000000</color>
+    <color name="profileDetailsColor">?android:attr/windowBackground</color>
+
+
+    <color name="bg2">#00c0bf</color>
+    <color name="unchangedbg2">#00c0bf</color>
+    <color name="bg3">#20897b</color>
+
+    <color name="profilebg3">#20897b</color>
+
+    <color name="windowbackground">#fffefe</color>
+
+
+    <color name="brightblue">#ccccff</color>
+    <color name="lightblue">#6666ff</color>
+    <color name="mediumblue">#0000ff</color>
+    <color name="navyblue">#000080</color>
+    <color name="darkblue">#00004d</color>
+
+    <color name="colortop">#142A5C</color>
+
+
+    <color name="startBlue">#09C6df</color>
+    <color name="endBlue">#0bcce6</color>
+    <color name="grayLight">#fafafa</color>
+</resources>

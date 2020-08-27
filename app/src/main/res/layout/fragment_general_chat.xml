@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="com.example.anko.newconnect.GeneralChatFragment">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/messageRec"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/linearLayout">
+
+    </android.support.v7.widget.RecyclerView>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="52dp"
+        android:gravity="center"
+        android:background="?android:attr/windowBackground"
+        android:id="@+id/linearLayout">
+
+        <EditText
+            android:layout_width="250dp"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/editMessage"
+            />
+        <Button
+            android:layout_width="100dp"
+            android:layout_margin="5dp"
+            android:id="@+id/button_send"
+            android:layout_height="wrap_content"
+            android:text="Send"
+            android:textColor="@color/backArrowColor"
+            android:background="@drawable/button_background"/>
+    </LinearLayout>
+
+</RelativeLayout>

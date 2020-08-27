@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "96972240891",
+    "firebase_url": "https://newconnect-ab229.firebaseio.com",
+    "project_id": "newconnect-ab229",
+    "storage_bucket": "newconnect-ab229.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:96972240891:android:d003cc814fdacba3003d5e",
+        "android_client_info": {
+          "package_name": "com.example.anko.newconnect"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "96972240891-7sjeq9aukmjmmej5eljjtsgb355fbrkb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.anko.newconnect",
+            "certificate_hash": "6053e06b85db43bcaa65d1e827e505bf9e5c7b23"
+          }
+        },
+        {
+          "client_id": "96972240891-8r0purs0srif63ovgs07lh081ifkoj9d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_s-webMuNfDeoHjPecu4Z7c0sYnAnbrY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "96972240891-8r0purs0srif63ovgs07lh081ifkoj9d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

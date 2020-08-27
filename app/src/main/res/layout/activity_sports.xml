@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?android:attr/windowBackground"
+    tools:context="com.example.anko.newconnect.sports.SportsActivity">
+
+        <android.support.design.widget.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/bar"
+            android:layout_alignParentTop="true">
+
+            <android.support.v7.widget.Toolbar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/sports_toolbar"
+                android:background="?android:attr/windowBackground"
+                app:menu="@menu/home">
+
+                <LinearLayout
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_margin="3dp"
+                    android:orientation="vertical"
+                    android:background="@drawable/back_arrow"
+                    android:layout_alignParentStart="true"
+                    android:id="@+id/back"/>
+
+                <TextView
+                    android:layout_width="210dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="20dp"
+                    android:text="Sports Feed"
+                    android:textColor="@color/backArrowColor"
+                    android:textStyle="bold"
+                    android:textSize="25sp"
+                    android:gravity="center"
+                    />
+
+
+            </android.support.v7.widget.Toolbar>
+        </android.support.design.widget.AppBarLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/messageRec"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/linearLayout"
+            android:layout_below="@+id/bar">
+
+        </android.support.v7.widget.RecyclerView>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_alignParentBottom="true"
+            android:gravity="center"
+            android:background="?android:attr/windowBackground"
+            android:id="@+id/linearLayout">
+
+            <EditText
+                android:layout_width="250dp"
+                android:layout_margin="5dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/editMessage"
+                />
+            <Button
+                android:layout_width="100dp"
+                android:layout_margin="5dp"
+                android:layout_height="wrap_content"
+                android:onClick="sendButtonClicked"
+                android:text="Send"
+                android:textColor="@color/backArrowColor"
+                android:background="@drawable/button_background"/>
+        </LinearLayout>
+
+
+    </RelativeLayout>
+

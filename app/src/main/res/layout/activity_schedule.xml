@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    tools:context="com.example.anko.newconnect.ScheduleActivity">
+    <TextView
+        android:id="@+id/myDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Events Schedule"
+        android:textAlignment="center"
+        android:textColor="#FFF"
+        android:textSize="22sp"
+
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="48dp"
+        />
+
+    <LinearLayout
+        android:layout_marginTop="48dp"
+        android:background="@drawable/calender_background"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content">
+
+
+        <CalendarView
+            android:id="@+id/calenderView"
+            android:layout_width="wrap_content"
+            android:layout_height="320dp"
+            android:layout_gravity="center_horizontal"
+            android:minDate="01/01/2020"
+            android:maxDate="12/25/2030"
+            ></CalendarView>
+    </LinearLayout>
+
+    <Button
+        android:background="@drawable/button_background"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="120dp"
+        android:text="Schedule Event"
+        android:id="@+id/schedule_btn"
+        android:textStyle="bold"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>

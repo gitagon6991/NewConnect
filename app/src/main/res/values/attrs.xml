@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ds">
+
+        <attr name="backgroundcolor" format="color"/>
+        <attr name="header" format="color"/>
+        <attr name="blackheader" format="color"/>
+        <attr name="backgroundcolorbg2" format="color"/>
+        <attr name="backgroundcolorbg3" format="color"/>
+        <attr name="cardbackground" format="color"/>
+        <attr name="textcolor" format="color"/>
+        <attr name="textcolorbg2" format="color"/>
+        <attr name="iconcolorbg2" format="color"/>
+        <attr name="iconcoloraccent" format="color"/>
+        <attr name="tintcolor" format="color"/>
+        <attr name="buttoncolor" format="color"/>
+
+    </declare-styleable>
+
+</resources>
